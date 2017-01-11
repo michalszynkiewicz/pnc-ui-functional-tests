@@ -16,5 +16,5 @@ In oreder to run the test you need to provide following system properties:
 
 ## TODOs
 The biggest TODO is to add proper discriminating attributes to the html elements in the UI. 
-I propose adding `data-test=<some nice name>` attributes to all elements that we're playing with.
+I propose adding `data-test=<some distinctive name>` attributes to all elements that we're playing with.
 
