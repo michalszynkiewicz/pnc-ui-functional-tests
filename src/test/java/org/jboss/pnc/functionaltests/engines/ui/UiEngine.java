@@ -36,7 +36,7 @@ public class UiEngine {
     }
 
     private WebDriver initDriver() {
-        System.setProperty("webdriver.gecko.driver", "/home/michal/job/pnc-functional-tests/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "geckodriver");
         FirefoxProfile profile = new ProfilesIni().getProfile("selenium-tests");
         profile.setAssumeUntrustedCertificateIssuer(false);
         profile.setAcceptUntrustedCertificates(true);
